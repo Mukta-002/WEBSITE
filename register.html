@@ -3,13 +3,36 @@
     <meta charset="UTF-8">
     
     <form>
-        <caption>REGISTER YOURSELF</caption>
+        <caption>REGISTER YOURSELF</caption><br><br.
         <label for="fname">First name</label><br>
         <input id="fname" name="fname" value=""><br><br>
         
         <label for="iname">Last name</label><br>
         <input id="iname" name="iname" value=""><br><br>
 
-        <input placeholder=""
+        
+
+        <label for="age">age</label><br>
+        <input type="number" id="age" name="age" value="" min="18" max="40"><br><br>
+
+
+        <label for="subject">subject</label><br>
+        <input type="checkbox" id="subject1" value="">
+        <label for="subject1">Science</label><br><br>
+        <input type="checkbox" id="subject2" value="" readonly>
+        <label for="subject2">Mathematics</label><br><br>
+
+        <label for="gender">GENDER</label><br>
+        <input type="radio" id="female" name="gender" value="">
+        <label for="female">female</label><br>
+        <input type="radio" id="male" name="gender" value="">
+        <label for="males">male</label><br>
+        
+        <label for="points">points</label>
+        <input type="number" id="points" name="points" value="" step="1"><br><br>
+        <input type="submit" value="submit"><br>
+        
+
+   
     </form>
 </html>
